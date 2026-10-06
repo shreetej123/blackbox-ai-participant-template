@@ -4,14 +4,14 @@
   "queries_used": 74,
   "claims": [
     {
-      "type": "feature_effect",
+      "type": "threshold",
       "feature": "linked_badges",
       "direction": "decreases",
       "strength": "strong",
       "confidence": 0.95,
       "evidence": {
         "query_ids": [56, 71, 73, 74],
-        "summary": "In the tested configuration, decreasing linked_badges improved the observed score. Query 56 with linked_badges = 20 produced 0.9898, while query 71 with linked_badges = 20 produced 0.9899. Reducing linked_badges to 19 in query 73 increased the score to 0.9942, and reducing it further to 18 in query 74 produced the current best score of 0.9945. These results support an improving trend as linked_badges decreases from 20 to 18, although values below 18 require further testing."
+        "summary": "Decreasing linked_badges improved the observed score in the tested range. Query 56 with linked_badges = 20 produced 0.9898, query 71 with linked_badges = 20 produced 0.9899, query 73 with linked_badges = 19 produced 0.9942, and query 74 with linked_badges = 18 produced the current best score of 0.9945. Values below 18 have not yet been tested sufficiently to establish a global optimum."
       }
     }
   ]
