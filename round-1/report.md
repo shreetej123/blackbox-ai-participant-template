@@ -1,7 +1,7 @@
 # round-1 — Observe
 
 **Team:** BB-008  
-**Queries used:** 74 / budget
+**Queries used:** 74 / budget: 150
 
 ## What we concluded
 
