@@ -10,7 +10,7 @@
       "strength": "strong",
       "confidence": 0.9,
       "evidence": {
-        "query_ids": ["11","12"],
+        "query_ids": ["109","110"],
         "summary": "The observed query evidence shows a strong negative combined dependency: increasing badge_age_days and recent_denials together changed the result from 0.8213 to 0.7325, while reversing both increased it to 0.8243. Other observed dependencies were clearance_level + linked_badges increasing the result strongly, anomaly_ratio + tenure_years increasing it weakly, and escorts + history_score + requested_zone decreasing it strongly. Site showed only a weak/nearly neutral effect."
       }
     }
