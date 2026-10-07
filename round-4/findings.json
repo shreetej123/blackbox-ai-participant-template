@@ -10,7 +10,7 @@
       "strength": "under investigation",
       "confidence": 0.0,
       "evidence": {
-        "query_ids": [],
+        "query_ids": ["56","72","74"],
         "summary": "The surrogate model is designed to learn the black-box score from one-at-a-time sweeps, critical min/mid/max combinations, and Sobol space-filling queries. No feature-effect claim is made until the console labels are supplied."
       }
     },
