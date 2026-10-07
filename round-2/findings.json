@@ -1,17 +1,17 @@
 {
   "round": "round-2",
-  "team": "BB-XXX",
-  "queries_used": 0,
+  "team": "BB-008",
+  "queries_used": 23,
   "claims": [
     {
       "type": "feature_effect",
-      "feature": "x1",
-      "direction": "increases",
+      "feature": "badge_age_days + recent_denials",
+      "direction": "decreases",
       "strength": "strong",
-      "confidence": 0.0,
+      "confidence": 0.9,
       "evidence": {
         "query_ids": [],
-        "summary": "Replace this example claim with your own. Every claim needs evidence."
+        "summary": "The observed query evidence shows a strong negative combined dependency: increasing badge_age_days and recent_denials together changed the result from 0.8213 to 0.7325, while reversing both increased it to 0.8243. Other observed dependencies were clearance_level + linked_badges increasing the result strongly, anomaly_ratio + tenure_years increasing it weakly, and escorts + history_score + requested_zone decreasing it strongly. Site showed only a weak/nearly neutral effect."
       }
     }
   ]
